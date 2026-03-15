@@ -1,0 +1,16 @@
+version: 1
+experiment_name: remifentanil_benchmark
+analysis: hybrid_fixed_hparams
+resolved_config:
+  version: 1
+  seed: 42
+  model:
+    width_size: 180
+    depth: 1
+  optimizer:
+    learning_rate: 0.01
+    epochs: 300
+    report_every: 50
+  source_config_path: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/configs/experiments/hybrid_fixed_hparams.yaml
+  experiment_name: remifentanil_benchmark
+  run_id: 20260313T160742Z

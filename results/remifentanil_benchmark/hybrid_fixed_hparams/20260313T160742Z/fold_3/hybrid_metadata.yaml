@@ -1,0 +1,16 @@
+hyperparameter_source: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/configs/experiments/hybrid_fixed_hparams.yaml
+resolved_hyperparameters:
+  model:
+    width_size: 180
+    depth: 1
+  optimizer:
+    learning_rate: 0.01
+    epochs: 300
+    report_every: 50
+covariate_columns:
+- age
+- weight
+- height
+- bsa
+- dose_rate
+- dose_duration

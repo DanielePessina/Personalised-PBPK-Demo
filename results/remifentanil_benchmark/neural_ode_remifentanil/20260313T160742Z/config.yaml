@@ -1,0 +1,24 @@
+version: 1
+experiment_name: remifentanil_benchmark
+analysis: neural_ode_remifentanil
+resolved_config:
+  version: 1
+  seed: 42
+  model:
+    width_size: 256
+    depth: 3
+    augment_dim: 4
+  training:
+    lr_strategy:
+    - 0.001
+    - 0.0005
+    steps_strategy:
+    - 500
+    - 1000
+    length_strategy:
+    - 0.3
+    - 1.0
+    batch_size: 32
+  source_config_path: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/configs/experiments/neural_ode_remifentanil.yaml
+  experiment_name: remifentanil_benchmark
+  run_id: 20260313T160742Z

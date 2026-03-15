@@ -1,0 +1,20 @@
+version: 1
+experiment_name: remifentanil_benchmark
+dataset:
+  path: nlme-remifentanil.xlsx
+output:
+  root_dir: results
+analyses:
+  default:
+    - bayesianopt
+    - hybrid
+    - node
+split:
+  outer_folds: 5
+  outer_seed: 20260313
+model_config_paths:
+  bayesianopt: configs/experiments/bayesianopt.yaml
+  differentialevo: configs/experiments/differentialevo.yaml
+  nlme: configs/experiments/nlme_optax.yaml
+  hybrid: configs/experiments/hybrid_fixed_hparams.yaml
+  node: configs/experiments/neural_ode_remifentanil.yaml

@@ -1,0 +1,65 @@
+version: 1
+seed: 333
+objective:
+  name: weighted_nll
+  scale: 0.1
+parameters:
+  - name: k_TP
+    low: 0.0001
+    high: 2.0
+    scale: linear
+  - name: k_PT
+    low: 0.0001
+    high: 2.0
+    scale: linear
+  - name: k_PHP
+    low: 0.0001
+    high: 2.0
+    scale: linear
+  - name: k_HPP
+    low: 0.0001
+    high: 2.0
+    scale: linear
+  - name: k_EL_Pl
+    low: 0.0001
+    high: 30.0
+    scale: linear
+  - name: Eff_kid
+    low: 0.0001
+    high: 1.0
+    scale: linear
+  - name: Eff_hep
+    low: 0.0001
+    high: 0.5
+    scale: linear
+  - name: k_EL_Tis
+    low: 0.0001
+    high: 3.0
+    scale: linear
+initialization:
+  strategy: uniform
+  include_center_candidate: true
+  center:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+  normal_stddev: 0.15
+optimizer:
+  population_size: 64
+  num_generations: 128
+  num_diff: 1
+  elitism: true
+  crossover_rate: 0.9
+  differential_weight: 0.8
+  report_every: 10
+evaluation:
+  candidate_batch_size: 64
+  jit: true
+artifacts:
+  save_final_population: true
+  history_stride: 10

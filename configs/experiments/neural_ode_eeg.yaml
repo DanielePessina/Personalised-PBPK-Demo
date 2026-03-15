@@ -1,0 +1,6 @@
+version: 1
+dataset:
+  path: remi_data_for_eeg_model.csv
+notes:
+  status: unsupported
+  reason: EEG data source and adapter interface are not fully wired into the orchestration layer yet.

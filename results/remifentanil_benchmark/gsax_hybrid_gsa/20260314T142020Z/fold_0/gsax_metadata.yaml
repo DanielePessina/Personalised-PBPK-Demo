@@ -1,0 +1,77 @@
+source_fold_index: 0
+source_fold_dir: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/results/remifentanil_benchmark/hybrid_fixed_hparams/20260313T160742Z/fold_0
+source_hybrid_test_rmse: 6.614417615008578
+train_patient_ids:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 12
+- 14
+- 15
+- 16
+- 17
+- 20
+- 21
+- 23
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 35
+- 36
+- 37
+- 38
+- 39
+- 41
+- 42
+- 43
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 53
+- 54
+- 55
+- 56
+- 57
+- 60
+- 61
+- 62
+- 63
+- 64
+- 65
+test_patient_ids:
+- 11
+- 13
+- 18
+- 19
+- 22
+- 24
+- 34
+- 40
+- 44
+- 45
+- 52
+- 58
+- 59
+sobol_samples_unique: 57344
+sobol_expanded_total: 57344
+shared_sampling_path: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/results/remifentanil_benchmark/gsax_hybrid_gsa/20260314T142020Z/sobol_samples.parquet
+shared_cohort_path: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/results/remifentanil_benchmark/gsax_hybrid_gsa/20260314T142020Z/healthy_phase1_cohort.parquet
+dense_points: 500
+output_names:
+- concentration

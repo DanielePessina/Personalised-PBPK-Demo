@@ -1,0 +1,23 @@
+resolved_run_dir: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/results/remifentanil_benchmark/hybrid_fixed_hparams/20260313T160742Z
+source_run_id: 20260313T160742Z
+manifest:
+  experiment_name: remifentanil_benchmark
+  analysis: hybrid_fixed_hparams
+  run_id: 20260313T160742Z
+  config_version: 1
+  dataset_path: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/nlme-remifentanil.xlsx
+  dataset_fingerprint: 300ac388634b31f1eb1e4faf850f2b0c2949472a625e3d3edf38636bbc02ace3
+  fold_file: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/results/remifentanil_benchmark/folds.yaml
+  code_version: 5ec7ca193645fb4876556242ff32fe4bbf0fb03b
+  status:
+    status: completed
+    started_at: '2026-03-13T16:07:42.457421+00:00'
+    completed_at: '2026-03-13T16:23:11.765621+00:00'
+    wall_clock_seconds: 929.2963109159973
+    failure_reason: null
+fold_test_rmse:
+  fold_0: 6.614417615008578
+  fold_1: 7.77774573969729
+  fold_2: 5.6044820497512
+  fold_3: 6.995841127686379
+  fold_4: 7.869620414838353

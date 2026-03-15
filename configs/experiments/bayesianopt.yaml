@@ -1,0 +1,50 @@
+version: 1
+seed: 333
+objective:
+  name: weighted_nll
+  scale: 0.1
+space:
+  k_TP:
+    low: 0.0001
+    high: 2.0
+    prior: uniform
+  k_PT:
+    low: 0.0001
+    high: 2.0
+    prior: uniform
+  k_PHP:
+    low: 0.0001
+    high: 2.0
+    prior: uniform
+  k_HPP:
+    low: 0.0001
+    high: 2.0
+    prior: uniform
+  k_EL_Pl:
+    low: 0.0001
+    high: 30.0
+    prior: uniform
+  Eff_kid:
+    low: 0.0001
+    high: 1.0
+    prior: uniform
+  Eff_hep:
+    low: 0.0001
+    high: 0.5
+    prior: uniform
+  k_EL_Tis:
+    low: 0.0001
+    high: 3.0
+    prior: uniform
+optimizer:
+  n_calls: 200
+  n_initial_points: 128
+  initial_point_generator: lhs
+  acq_func: EI
+  acq_optimizer: auto
+  noise: gaussian
+  xi: 0.01
+  kappa: 1.96
+  n_restarts_optimizer: 5
+  deadline_minutes: 10
+  verbose: true

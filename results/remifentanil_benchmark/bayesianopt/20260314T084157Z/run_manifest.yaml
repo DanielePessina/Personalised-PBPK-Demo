@@ -1,0 +1,14 @@
+experiment_name: remifentanil_benchmark
+analysis: bayesianopt
+run_id: 20260314T084157Z
+config_version: 1
+dataset_path: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/nlme-remifentanil.xlsx
+dataset_fingerprint: 300ac388634b31f1eb1e4faf850f2b0c2949472a625e3d3edf38636bbc02ace3
+fold_file: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/results/remifentanil_benchmark/folds.yaml
+code_version: df0820756fa201cd38d38e61388e2c2106e5e69f
+status:
+  status: completed
+  started_at: '2026-03-14T08:41:57.932139+00:00'
+  completed_at: '2026-03-14T08:51:40.101166+00:00'
+  wall_clock_seconds: 582.165951334
+  failure_reason: null

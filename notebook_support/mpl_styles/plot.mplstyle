@@ -1,0 +1,9 @@
+figure.dpi: 500
+axes.grid: True
+axes.grid.which: both
+grid.linestyle: --
+grid.alpha: 0.4
+grid.linewidth: 0.6
+xtick.minor.visible: True
+ytick.minor.visible: True
+font.family: Roboto Slab

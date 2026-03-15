@@ -1,0 +1,17 @@
+hyperparameter_source: /Users/danielepessina/Documents/Local Uni/PersonalisedPBPK/configs/experiments/neural_ode_remifentanil.yaml
+resolved_hyperparameters:
+  model:
+    width_size: 256
+    depth: 3
+    augment_dim: 4
+  training:
+    lr_strategy:
+    - 0.001
+    - 0.0005
+    steps_strategy:
+    - 500
+    - 1000
+    length_strategy:
+    - 0.3
+    - 1.0
+    batch_size: 32

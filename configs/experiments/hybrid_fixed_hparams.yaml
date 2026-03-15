@@ -1,0 +1,9 @@
+version: 1
+seed: 42
+model:
+  width_size: 180
+  depth: 1
+optimizer:
+  learning_rate: 0.01
+  epochs: 300
+  report_every: 50

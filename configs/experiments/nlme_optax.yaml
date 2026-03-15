@@ -1,0 +1,6 @@
+version: 1
+seed: 45
+optimizer:
+  learning_rate: 0.01
+  epochs: 200
+  report_every: 50
